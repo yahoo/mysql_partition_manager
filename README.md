@@ -53,5 +53,5 @@ None
 
 # License
 --------
-This code licensed under the Apache license. See the LICENSE file for terms.
+"Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms.
 
