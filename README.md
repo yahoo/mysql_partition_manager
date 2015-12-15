@@ -58,5 +58,5 @@ Optionally call schedule_partition_manager to update the partitioning schedule b
 
 # License
 --------
-"Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms."
+Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms.
 
