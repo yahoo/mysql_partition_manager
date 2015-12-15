@@ -11,7 +11,8 @@ Run the attached SQL file into the database of your choice. Please make sure tha
 When you run this file: 
 
 * Code to automatically manage partitions will be deployed.
-* Settings table will be created to populate how you want to partition tables. This table is empty for the first run.
+* Settings table will be created to populate how you want to partition tables. 
+* This table is empty for the first run.
 * An event will be created with a default run time frequency of 24 hours.
 
 This code has been successfully tested on Percona’s flavor of MySQL 5.5 and MySQL 5.6. It should work on previous versions too. We are currently testing it for MySQL 5.7 as well.
@@ -25,7 +26,10 @@ The pre-requisite to partition a table is:
 
 * The table should have a numeric time column storing either epoch unix format or a factored version of it e.g. hour
 * The chosen column should be part of the primary key
-* Insert a row into the partition manager settings table. Table name is ‘partition_manager_settings’
+* Insert a row into the partition manager settings table. 
+* Table name is ‘partition_manager_settings’
+
+* Below code shows the settings table
 
 CREATE TABLE `partition_manager_settings` (
   `table` varchar(64) NOT NULL COMMENT 'table name',
