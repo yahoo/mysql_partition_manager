@@ -49,9 +49,9 @@ Optionally call schedule_partition_manager to update the partitioning schedule b
 # Known Limitations
 -------
 
-None
+* For partition retention to be an instant operation, you must be using XFS file system since it's a heavy locking operation on ext file systems.
 
 # License
 --------
-"Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms.
+"Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms."
 
