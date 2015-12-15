@@ -53,7 +53,8 @@ Optionally call schedule_partition_manager to update the partitioning schedule b
 # Known Limitations
 -------
 
-* For partition retention to be an instant operation, you must be using XFS file system since it's a heavy locking operation on ext file systems.
+* For partition retention to be an instant operation, you must be using XFS file system.
+* It's a heavy locking operation on ext file systems.
 
 # License
 --------
