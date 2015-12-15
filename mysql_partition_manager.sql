@@ -1,3 +1,5 @@
+# Copyright 2015 Yahoo Inc. Licensed under the terms of Apache License 2.0. Please see the LICENSE file for terms.
+
 drop procedure if exists partition_manager;
 
 delimiter ;;
