@@ -103,7 +103,7 @@ close cur_table_list;
 
 # confirm schedule for next run
 
-call schedule_partition_manager();
+call schedule_partition_manager(); /* 5.6.29+/5.7.11+ only - mysql bug 77288 */cal
 
 END;;
 DELIMITER ;
@@ -177,7 +177,7 @@ drop table if exists partition_manager_settings;
 
 rename table partition_manager_settings_new to partition_manager_settings;
 
-call schedule_partition_manager();
+call schedule_partition_manager(); /* 5.6.29+/5.7.11+ only - mysql bug 77288 */
 
 end;;
 delimiter ;
