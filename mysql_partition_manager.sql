@@ -103,7 +103,7 @@ close cur_table_list;
 
 # confirm schedule for next run
 
-call schedule_partition_manager(); /* 5.6.29+/5.7.11+ only - mysql bug 77288 */cal
+call schedule_partition_manager(); /* 5.6.29+/5.7.11+ only - mysql bug 77288 */
 
 END;;
 DELIMITER ;
