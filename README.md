@@ -55,6 +55,7 @@ Optionally call schedule_partition_manager to update the partitioning schedule b
 
 * For partition retention to be an instant operation, you must be using XFS file system.
 * It's a heavy locking operation on ext file systems.
+* On replicated systems with versions earlier than 5.6.29/5.7.11, comment out the mentioned lines, as automated scheduling dosn't work via replication due to mysql bug http://bugs.mysql.com/bug.php?id=77288
 
 # License
 --------
